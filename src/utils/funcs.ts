@@ -121,13 +121,13 @@ export const argTab = (
   }
 
   // 5) if input is 'projects' or 'socials'
-  else if (inputVal === "projects " || inputVal === "socials ") {
+  else if (inputVal === "projects " || inputVal === "socials " || inputVal === "works ") {
     setInputVal(`${inputVal}go`);
     return [];
   }
 
   // 6) if input is 'projects g' or 'socials g'
-  else if (inputVal === "projects g" || inputVal === "socials g") {
+  else if (inputVal === "projects g" || inputVal === "socials g" || inputVal === "works g") {
     setInputVal(`${inputVal}o`);
     return [];
   }
@@ -142,6 +142,14 @@ export const argTab = (
 
   // 8) if input is 'projects go '
   else if (_.startsWith(inputVal, "projects go ")) {
+    ["1", "2", "3", "4", "5", "6"].forEach(t => {
+      hintsCmds = [...hintsCmds, t];
+    });
+    return hintsCmds;
+  }
+
+  // 9) if input is 'works go '
+  else if (_.startsWith(inputVal, "works go ")) {
     ["1", "2", "3", "4", "5", "6"].forEach(t => {
       hintsCmds = [...hintsCmds, t];
     });
