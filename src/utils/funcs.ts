@@ -150,7 +150,7 @@ export const argTab = (
 
   // 9) if input is 'works go '
   else if (_.startsWith(inputVal, "works go ")) {
-    ["1", "2", "3", "4", "5", "6"].forEach(t => {
+    ["1", "2", "3"].forEach(t => {
       hintsCmds = [...hintsCmds, t];
     });
     return hintsCmds;
