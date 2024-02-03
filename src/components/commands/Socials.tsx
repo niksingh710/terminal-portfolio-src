@@ -52,25 +52,25 @@ const socials = [
   {
     id: 1,
     title: "GitHub",
-    url: "https://github.com/satnaing",
+    url: "https://github.com/niksingh710",
     tab: 3,
   },
   {
     id: 2,
-    title: "Dev.to",
-    url: "https://dev.to/satnaing",
+    title: "Telegram",
+    url: "https://t.me/niksingh710",
     tab: 3,
   },
   {
     id: 3,
-    title: "Facebook",
-    url: "https://www.facebook.com/satnaing.dev",
+    title: "Reddit",
+    url: "https://reddit.com/u/niksingh710",
     tab: 1,
   },
   {
     id: 4,
-    title: "Instagram",
-    url: "https://instagram.com/satnaing.dev",
+    title: "LinkedIn",
+    url: "https://linkedin.com/in/niksingh710",
     tab: 0,
   },
 ];

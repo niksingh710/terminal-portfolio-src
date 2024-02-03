@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
-    isArgInvalid(arg, "go", ["1", "2", "3", "4"]) ? (
+    isArgInvalid(arg, "go", ["1", "2", "3", "4", "5", "6"]) ? (
       <Usage cmd="projects" />
     ) : null;
 
@@ -56,27 +56,39 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "Tmux Minimal Status",
+    desc: "A Tmux status line theme that is minimal, informative and easy to customize.",
+    url: "https://github.com/niksingh710/minimal-tmux-status",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
+    title: "The cli setup",
+    desc: "Personal Cli configs to make my life easier. You can use it too!",
+    url: "https://github.com/niksingh710/cli",
   },
   {
     id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
+    title: "The cli Editor Nvim",
+    desc: "The configuration for my favorite editor Neovim. It's fast and easy to use.",
+    url: "https://github.com/niksingh710/nvim",
   },
   {
     id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "basic-battery-stat",
+    desc: "Linux utility to report battery status and connected mobile device battery",
+    url: "https://github.com/niksingh710/basic-battery-stat",
+  },
+  {
+    id: 5,
+    title: "Center align",
+    desc: "Linux utility to center any pattern in terminal",
+    url: "https://github.com/niksingh710/center-align",
+  },
+  {
+    id: 6,
+    title: "Github ..... ",
+    desc: "Check out more here... there are alot",
+    url: "https://github.com/niksingh710?tab=repositories&type=source",
   },
 ];
 
